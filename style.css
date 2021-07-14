@@ -1,3 +1,6 @@
+/* Media query */
+
+
 /* header styles */
 .header{background-color: #2D25A0;
     width: 1440px;
@@ -17,22 +20,39 @@
     display: grid;
     grid-template-columns: repeat(2,1fr); 
 }
+.header-portion h1{
+    transition: text-decoration 1s;
+}
+
+.header-portion h1:hover{
+    text-decoration:3px solid #61a1eb; ;
+}
 .header-portion img{
     width: 650px;
     height: 500px;
     margin-left: 107px;
     margin-top: 153px;
+    transition: border 0;
+}
+.header-portion img:hover{
+    
+    border: 3px solid #61a1eb; ;
+}
+@media screen and {max-width: 1024px,min-width: 768px;
+    .header-portion{
+        background-color: brown;
+    }
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 /* main section's styles */
 .players{
     width: 1440px;
-    height: 3770px;
+    height: 2770px;
     background-color: #FFFFFF;
 
 }
-/* .players .blogs:hover{
-   border:5px solid rgb(123, 123, 233);
-} */
 
 .blogs{
     display: grid;
@@ -59,6 +79,17 @@
 
     border: 3px solid #61a1eb;
 }
+/* .blog-combined{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    transition: border 0;;
+
+} */
+/* .blog-combined:hover{
+    border: 3px solid #61a1eb; ;
+} */
 .player-img img{
     /* margin: 16px 0px; */
     width: 300px;
@@ -77,10 +108,73 @@
     
 
 }
+/* middle portion styles */
+.middle{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+
+}
+.middle-portion{
+    width: 469px;
+    height: 409px;
+    margin-left: 182px;
+    top: 2948px;
+   
+}
+.middle-portion:hover{
+    border: 3px solid #61a1eb;
+}
+.middle-portion h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.watch-live{
+    width: 173px;
+    height: 44px;
+    left: 0px;
+    top: 265px;
+    padding: 10px 24px;
+    color: white;
+    background: #E02C6D;
+}
+.image img{
+    width: 567px;
+    height: 427px;
+    left: 717px;
+    top: 2889px;
+}
+.image img:hover{
+    border: 3px solid #61a1eb;
+}
 /* footer section */
-.footer-image img{
+footer{
+    width: 484px;
+    height: 213px;
+    margin-left: 475px;
+    top: 3474px;
+    text-align: center;
+}
+footer:hover{
+    border:3px solid #61a1eb;
+}
+footer img{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    width: 483px;
+    height: 110px;
+}
+.social-media{
+    width: 170px;
+height: 32px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-left: 156px;
+}
+.social-media img{
     
+    width: 32px;
+    height: 32px;
 }
