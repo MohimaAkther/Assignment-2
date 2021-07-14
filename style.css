@@ -30,9 +30,9 @@
     background-color: #FFFFFF;
 
 }
-.players .blogs:hover{
-   border:5px solid blue;
-}
+/* .players .blogs:hover{
+   border:5px solid rgb(123, 123, 233);
+} */
 
 .blogs{
     display: grid;
@@ -53,6 +53,11 @@
     left: 0px;
     top: 272px;
     padding: 15px;
+    transition: border 0;
+}
+.blog-1:hover{
+
+    border: 3px solid #61a1eb;
 }
 .player-img img{
     /* margin: 16px 0px; */
