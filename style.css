@@ -2,8 +2,7 @@
 /* header styles */
 .header{background-color: #2D25A0;
     width: 1440px;
-    height: 677px;  
-    
+    height: 677px;
 }
 .header-portion{
     width: 485px;
@@ -15,8 +14,6 @@
     line-height: 100px;
     align-items: center;
     color: #FFFFFF;
-  
-  
     display: grid;
     grid-template-columns: repeat(2,1fr); 
 }
@@ -35,7 +32,6 @@
     transition: border 0;
 }
 .header-portion img:hover{
-    
     border: 3px solid #61a1eb; ;
 }
 
@@ -47,7 +43,6 @@ body{
     width: 1440px;
     height: 2770px;
     background-color: #FFFFFF;
-
 }
 
 .blogs{
@@ -72,36 +67,29 @@ body{
     transition: border 0;
 }
 .blog-1:hover{
-
     border: 3px solid #61a1eb;
 }
 
 .player-img img{
-   
     width: 300px;
     height: 256px;
     margin-bottom: 16px;
- 
 }
 .blog-details{
     width: 300px;
     height: 154px;
-   
-    
-
 }
 /* middle portion styles */
 .middle{
    display: grid;
    grid-template-columns: repeat(2,1fr);
-
 }
 .middle-portion{
     width: 469px;
     height: 409px;
     margin-left: 182px;
     top: 2948px;
-   
+    padding: 20px;
 }
 .middle-portion:hover{
     border: 3px solid #61a1eb;
@@ -121,7 +109,6 @@ body{
     background: #E02C6D;
     text-align: center;
     font-weight: 700;
-    
 }
 .image img{
     width: 567px;
@@ -152,14 +139,13 @@ footer img{
 }
 .social-media{
     width: 170px;
-height: 32px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-margin-left: 156px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 156px;
 }
 .social-media img{
-    
     width: 32px;
     height: 32px;
 }
@@ -177,23 +163,20 @@ margin-left: 156px;
     Header{
         width: 70%;
         width: 360px;
-height: 695px; 
-
-
- grid-template-rows: repeat(1,1fr); }
+        height: 695px; 
+        grid-template-rows: repeat(1,1fr); }
     .blogs{
         width: 100%; 
         width: 330px;
-height: 474px;
-left: 15px;
-top: 742px;
+        height: 474px;
+        left: 15px;
+        top: 742px;
         grid-template-columns: repeat(1,1fr); 
-         display: flex;
+        display: flex;
         flex-direction: column; 
     }
     .middle{
         display: none;
-      
     }
   .footer{
     width: 70%;
