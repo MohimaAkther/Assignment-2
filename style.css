@@ -1,5 +1,3 @@
-/* Media query */
-
 
 /* header styles */
 .header{background-color: #2D25A0;
@@ -17,6 +15,9 @@
     line-height: 100px;
     align-items: center;
     color: #FFFFFF;
+    /* display: flex;
+    flex-direction: row; */
+  
     display: grid;
     grid-template-columns: repeat(2,1fr); 
 }
@@ -38,11 +39,7 @@
     
     border: 3px solid #61a1eb; ;
 }
-@media screen and {max-width: 1024px,min-width: 768px;
-    .header-portion{
-        background-color: brown;
-    }
-}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -177,4 +174,41 @@ margin-left: 156px;
     
     width: 32px;
     height: 32px;
+}
+
+
+/* ------------------
+    Media queries
+----------------- */
+/* Mobile devices */
+
+@media only screen and (max-width: 688px) {
+/* .first-part{
+        width: 100%;
+    } */
+   Header{
+        width: 70%;
+        width: 360px;
+height: 695px;
+
+
+/* grid-template-rows: repeat(1,1fr); */
+    }
+    .blogs{
+        /* width: 100%; */
+        width: 330px;
+height: 474px;
+left: 15px;
+top: 742px;
+        grid-template-columns: repeat(1,1fr);
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .middle{
+        display: none;
+      
+    }
+  .footer{
+    width: 70%;
+   }
 }
