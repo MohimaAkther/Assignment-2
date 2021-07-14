@@ -3,9 +3,9 @@
 .header{background-color: #2D25A0;
     width: 1440px;
     height: 677px;  
+    
 }
 .header-portion{
-    /* width: 50%; */
     width: 485px;
     height: 230px;
     font-weight: 700;
@@ -15,8 +15,7 @@
     line-height: 100px;
     align-items: center;
     color: #FFFFFF;
-    /* display: flex;
-    flex-direction: row; */
+  
   
     display: grid;
     grid-template-columns: repeat(2,1fr); 
@@ -76,32 +75,18 @@ body{
 
     border: 3px solid #61a1eb;
 }
-/* .blog-combined{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 27px;
-    transition: border 0;;
 
-} */
-/* .blog-combined:hover{
-    border: 3px solid #61a1eb; ;
-} */
 .player-img img{
-    /* margin: 16px 0px; */
+   
     width: 300px;
     height: 256px;
     margin-bottom: 16px;
  
 }
 .blog-details{
-    /* width: 300px;
-    height: 154px; */
     width: 300px;
     height: 154px;
-    /* left: 0px;
-    top: 272px;
-    padding: 15px; */
+   
     
 
 }
@@ -128,12 +113,15 @@ body{
 }
 .watch-live{
     width: 173px;
-    height: 44px;
+    height: 40px;
     left: 0px;
     top: 265px;
     padding: 10px 24px;
     color: white;
     background: #E02C6D;
+    text-align: center;
+    font-weight: 700;
+    
 }
 .image img{
     width: 567px;
@@ -183,26 +171,25 @@ margin-left: 156px;
 /* Mobile devices */
 
 @media only screen and (max-width: 688px) {
-/* .first-part{
+ .first-part{
         width: 100%;
-    } */
-   Header{
+    } 
+    Header{
         width: 70%;
         width: 360px;
-height: 695px;
+height: 695px; 
 
 
-/* grid-template-rows: repeat(1,1fr); */
-    }
+ grid-template-rows: repeat(1,1fr); }
     .blogs{
-        /* width: 100%; */
+        width: 100%; 
         width: 330px;
 height: 474px;
 left: 15px;
 top: 742px;
-        grid-template-columns: repeat(1,1fr);
-        /* display: flex;
-        flex-direction: column; */
+        grid-template-columns: repeat(1,1fr); 
+         display: flex;
+        flex-direction: column; 
     }
     .middle{
         display: none;
@@ -210,5 +197,4 @@ top: 742px;
     }
   .footer{
     width: 70%;
-   }
-}
+   } 
